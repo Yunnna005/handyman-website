@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 import Gellary from "./components/Gellary";
 import Hero from "./components/Hero";
 import NavBar from "./components/NavBar";
@@ -10,6 +11,7 @@ function App() {
       <Hero />
       <Services />
       <Gellary />
+      <Footer />
     </>
   );
 }

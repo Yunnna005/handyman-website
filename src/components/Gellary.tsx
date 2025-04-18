@@ -68,7 +68,9 @@ export default function Gallery() {
             d="M2.25 15.75l5.159-5.159a2.25 2.25 0 0 1 3.182 0l5.159 5.159m-1.5-1.5l1.409-1.409a2.25 2.25 0 0 1 3.182 0l2.909 2.909m-18 3.75h16.5a1.5 1.5 0 0 0 1.5-1.5V6a1.5 1.5 0 0 0-1.5-1.5H3.75A1.5 1.5 0 0 0 2.25 6v12a1.5 1.5 0 0 0 1.5 1.5Zm10.5-11.25h.008v.008h-.008V6.75Zm.375 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z"
           />
         </svg>
-        <h2 className="mt-3 text-3xl font-bold text-gray-900">Work Gallery</h2>
+        <h2 className="mt-3 text-3xl font-bold text-gray-900">
+          Our Work Gallery
+        </h2>
         <p className="mt-2 text-base text-gray-600">
           See the transformations we've brought to homes like yours
         </p>
@@ -93,15 +95,6 @@ export default function Gallery() {
               </figure>
             </div>
           ))}
-        </div>
-
-        <div className="mt-8">
-          <a
-            href="#contact"
-            className="inline-block bg-amber-600 text-white px-5 py-2 rounded-md font-medium hover:bg-amber-700 transition-colors duration-200 shadow-md text-sm"
-          >
-            Book Your Project
-          </a>
         </div>
       </div>
     </div>
