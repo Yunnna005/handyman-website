@@ -1,7 +1,7 @@
 export default function Hero() {
   return (
     <div
-      className="hero min-h-[31.25rem]"
+      className="hero min-h-[32rem]"
       style={{
         backgroundImage: "url(/tools.jpg)",
         backgroundSize: "cover",
